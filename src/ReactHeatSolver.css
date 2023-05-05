@@ -1,0 +1,89 @@
+.topRow {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.mainColumn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.formLeftTextColumn {
+  display: flex;
+  justify-content: end;
+  align-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.formLeftTextColumnBig {
+  display: flex;
+  justify-content: end;
+  align-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.formLeftTextColumnBigEnd {
+  display: flex;
+  justify-content: end;
+  align-content: center;
+  align-items: end;
+  height: 100px;
+}
+
+.formLeftTextColumnBigStart {
+  display: flex;
+  justify-content: start;
+  align-content: center;
+  align-items: end;
+  height: 100px;
+}
+
+.formRightInputRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-content: center;
+  align-items: center;
+}
+
+.formRightInputColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-content: center;
+  align-items: center;
+}
+
+.formRightInputStart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: start;
+}
+
+.formRightInputStartStart {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-content: center;
+  align-items: start;
+}
+
+.formRightInputStartEnd {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-content: center;
+  align-items: end;
+}
+
+.form-control {
+  width: 250px;
+}
+
